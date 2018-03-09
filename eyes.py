@@ -9,6 +9,7 @@ class eyes():
     def __init__(self,img1):
     
         self.img1 = img1
+        self.main = main
 
     def eye(self):
         image = cv2.imread(self.img1)
